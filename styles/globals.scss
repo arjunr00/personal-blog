@@ -1,0 +1,19 @@
+@use 'variables.module' as *;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: $font-post-body;
+  color: $color-primary;
+  background-color: $color-bg;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
